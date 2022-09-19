@@ -13,8 +13,8 @@ def Widgets():
 					padx=15,
 					pady=15,
 					font="SegoeUI 14",
-					bg="palegreen1",
-					fg="red")
+					bg="#856ff8",
+					fg="#FFFFB9")
 	head_label.grid(row=1,
 					column=1,
 					pady=10,
@@ -144,7 +144,7 @@ root = tk.Tk()
 root.geometry("520x280")
 root.resizable(False, False)
 root.title("YouTube Video Downloader")
-root.config(background="PaleGreen1")
+root.config(background="#856ff8")
 
 # Creating the tkinter Variables
 video_Link = StringVar()
